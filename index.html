@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Filmes e Séries</title>
+    <!-- Importação da fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao <img src="pinha.png" alt="Logo Pinha" class="pinha"> filmes</h1>
+    </header>
+
+    <main class="app-container">
+        <section class="search-section">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Pesquisar série ou filme..." autocomplete="off"
+                    required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="results-section">
+            <div id="results-wrapper" class="results-wrapper"></div>
+        </section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
